@@ -1,0 +1,136 @@
+* {
+    font-family: 'IBM Plex Sans';
+}
+
+body, html {
+    background: #2A2E43;
+}
+
+.is-transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.is-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fancynav {
+    margin: 0 auto;
+    position: relative;
+    min-height: 5rem;
+}
+
+@media screen and (min-width: 1088px) {
+    .fancynav {
+        max-width: 960px;
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .fancynav {
+        max-width: 1152px;
+        width: 1152px
+    }
+}
+
+@media screen and (min-width: 1472px) {
+    .fancynav {
+        max-width: 1344px;
+        width: 1344px
+    }
+}
+
+.fancynav>.navbar-brand>.navbar-item img {
+    max-height: 2rem !important;
+}
+
+.navbar-item.is-expanding {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item.is-expanding:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.is-semibold {
+    font-weight: 600;
+    color: white !important;
+}
+
+.hero-title {
+    font-weight: 600;
+    line-height: 57px;
+    font-size: 54px;
+    margin-top: -2rem;
+}
+
+.hero-subtitle {
+    font-weight: 600;
+    line-height: 31px;
+    font-size: 28px;
+    margin-top: 2rem;
+}
+
+.hero-subtitle > * {
+  border: 1px solid white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 1088px) {
+    .hero-title {
+        line-height: 37px;
+        font-size: 34px;
+    }
+}
+
+.is-altbox-267 {
+    min-height: 267px;
+}
+
+.is-picture {
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.altbox-text {
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+}
+
+.altbox-left {
+    padding-left: 0;
+}
+
+.altbox-right {
+    padding-left: 40px;
+}
+
+twitter-widget {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1088px) {
+    .altbox-right {
+        padding-left: inherit;
+    }
+    .altbox-text {
+        text-align: center;
+    }
+}
+
+.is-flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loose-paragraph {
+    padding-top: 8px;
+}

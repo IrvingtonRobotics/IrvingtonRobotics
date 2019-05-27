@@ -1,0 +1,147 @@
+body {
+	font-family: Rubik, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: rgb(23, 29, 46);
+	color: white;
+}
+.logo {
+	max-width: 79%;
+	height: auto;
+	transition: all 0.1s;
+}
+.vcenter {
+    height: 77px;
+    line-height: 77px;
+    font-size: 23pt;
+}
+.varispace-small-decrease {
+	width: 1px;
+	height: 5vw;
+}
+.varispace-small-increase-large-hide {
+	display: none;
+}
+
+a {
+	transition: 0.3s all;
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+.robot {
+	height: 40vh;
+}
+.hero {
+	font-size: 40pt;
+	font-weight: 300;
+}
+.heart {
+	height: 103px;
+	width: 91px;
+}
+.info {
+	font-size: 20pt;
+}
+
+.fixed-top {
+	margin-top: 5vh;
+}
+
+.opaque {
+	background-color: rgba(15, 19, 31, 0.7);
+}
+
+.shrink-logo {
+	max-width: 175px;
+    height: auto;
+    padding-top: 15px;
+}
+
+.full-hero {
+	position:  absolute;
+	top: -5vh;
+	left: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	/* z-index: 1000; */
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.full-hero h1 {
+	font-size: 144px;
+	font-family: Inconsolata, monospace;
+	color: #5af78e;
+}
+
+.full-hero > .row {
+	display: block;
+	text-align: center;
+}
+
+.full-hero > .row > div {
+	font-size: 20pt;
+	font-family: Roboto;
+}
+
+.content {
+	margin-top: 100vh;
+	font-family: Roboto;
+}
+
+.btn-awesome {
+	background: #5af78e;
+	font-family: Roboto;
+	border-radius: 200px;
+	width: 150px;
+	height: 50px;
+	font-size: 20pt;
+	/* color: white; */
+	cursor: pointer;
+}
+
+.btn-awesome:hover {
+	color: white;
+}
+
+/* for small screens, like iPhones */
+@media(min-width: 100px) {
+	.varispace-small-increase-large-hide {
+		display: block;
+		width: 10px;
+		height: 25vw;
+		/*background: red;*/
+	}
+	.full-hero h1 {
+		font-size: 40pt;
+	}
+}
+
+/* for large screens, like desktops */
+@media(min-width: 760px) {
+	.varispace-small-decrease {
+		height: 2.5vw;
+	}
+	.varispace-small-increase-large-hide {
+		display: none;
+	}
+	.full-hero h1 {
+		font-size: 100px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	/* .shrink-logo {
+		max-width: 2vw;
+	} */
+	.full-hero h1 {
+		font-size: 144px;
+	}
+ }
+
