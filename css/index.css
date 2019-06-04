@@ -134,3 +134,8 @@ twitter-widget {
 .loose-paragraph {
     padding-top: 8px;
 }
+
+ul.is-like-text {
+    width: auto;
+    text-align: center;
+}
