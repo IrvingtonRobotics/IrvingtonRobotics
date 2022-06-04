@@ -139,3 +139,10 @@ ul.is-like-text {
     width: auto;
     text-align: center;
 }
+
+.link{
+    color: rgb(47, 47, 194) !important;
+}
+.link:hover{
+    color: rgb(96, 96, 224) !important;
+}
